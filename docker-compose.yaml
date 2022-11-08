@@ -10,7 +10,7 @@ services:
       KEY: SmSkey
     ports:
       - 8989:80
-#    devices:
-#      - /dev/ttyS0:/dev/ttyS0
+    devices:
+      - /dev/ttyS0:/dev/ttyS0
     volumes:
       - ./smsd.conf:/etc/smsd.conf
