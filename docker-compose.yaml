@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  smsd:
+    build: .
+    restart: unless-stopped
+    container_name: smstools3
+    hostname: smstools3
+    environment:
+      KEY: SmSkey
+    ports:
+      - 8989:80
+#    devices:
+#      - /dev/ttyS0:/dev/ttyS0
+    volumes:
+      - ./smsd.conf:/etc/smsd.conf
