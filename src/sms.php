@@ -1,8 +1,7 @@
 <?php
 $key="1234";
 
-#### MTa
-#$to = "420800123456";
+#$to = "420xxxxxxxx";
 
 
 $prevodni_tabulka = Array(

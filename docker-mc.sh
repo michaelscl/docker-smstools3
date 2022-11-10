@@ -1,0 +1,1 @@
+sudo -E docker exec -it smstools3 mc -a /var/log
